@@ -1,4 +1,4 @@
-write a program that takes the temperature in Celsius as input from the user and converts it to Fahrenheit.
+//write a program that takes the temperature in Celsius as input from the user and converts it to Fahrenheit.
 import java.util.Scanner;
 public class celciusToFahrenheitConversion {
     public static void main(String[] args) {
