@@ -16,10 +16,10 @@ public class Pens {
         int totalPens = 14;
         int student = 3;
 
-        int PenPerStudent = totalPens / student ;
-        int RemainingStudent = totalPens % student;
+        int penPerStudent = totalPens / student ;
+        int remainingStudent = totalPens % student;
 
-        System.out.println("The pen per student is " + PenPerStudent + "and the remaining pen not distributed is " + RemainingStudent );
+        System.out.println("The pen per student is " + penPerStudent + "and the remaining pen not distributed is " + remainingStudent );
 
 
 

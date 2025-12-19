@@ -13,15 +13,15 @@
 public class Amount {
 
     public static void main(String args[]){
-        int Fee =  125000;
+        int fee =  125000;
         int discountPercent = 10;
 
-        int discounted_amount = (Fee * discountPercent)/100;
+        int discountedAmount = (fee * discountPercent)/100;
 
-        int finalFee = Fee - discounted_amount ;
+        int finalFee = fee - discountedAmount ;
 
 
-        System.out.println("The discount amount is INR " + discounted_amount + " and final discounted fee is INR "  + finalFee  );
+        System.out.println("The discount amount is INR " + discountedAmount + " and final discounted fee is INR "  + finalFee  );
 
 
 

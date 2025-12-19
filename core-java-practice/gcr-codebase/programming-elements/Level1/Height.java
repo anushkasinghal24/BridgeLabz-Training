@@ -12,11 +12,11 @@ public class Height {
 
     
         System.out.println("Enter Heigth in cm : ");
-        double height_cm = sc.nextDouble();
-        double totalInches = height_cm / 2.54;
+        double heightInCm = sc.nextDouble();
+        double totalInches = heightInCm / 2.54;
         int feet = (int) (totalInches/12);
         double inches = totalInches % 12;
-        System.out.println("Your Height in cm is " + height_cm + " " + "while in feet is " + feet + " and inches is " + inches);
+        System.out.println("Your Height in cm is " + heightInCm + " " + "while in feet is " + feet + " and inches is " + inches);
 
         
 

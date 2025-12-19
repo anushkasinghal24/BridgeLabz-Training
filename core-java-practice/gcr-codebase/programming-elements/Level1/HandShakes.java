@@ -6,7 +6,7 @@
 
 import java.util.*;
 
-public class HandShakes {
+public class Handshakes {
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);

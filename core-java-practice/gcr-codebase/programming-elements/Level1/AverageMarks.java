@@ -7,12 +7,12 @@ public class AverageMarks {
 
     public static void main(String args[]){
 
-        int Math = 94;
-        int Physics = 95;
-        int Chemistry = 96;
+        int math = 94;
+        int physics = 95;
+        int chemistry = 96;
 
-        int Average =(Math + Physics + Chemistry) / 3;
-        System.out.println("Sam's average mark in PCM is :" + Average);
+        int average =(math + physics + chemistry) / 3;
+        System.out.println("Sam's average mark in PCM is :" + average);
 
     }
 
