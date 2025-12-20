@@ -1,32 +1,49 @@
-// Write a Program to find the day of the week given the date
+// Write a program DayOfWeek that takes a date as input and prints the day of the week that the date falls on. 
+// Your program should take three command-line arguments: m (month), d (day), and y (year). 
+// For m use 1 for January, 2 for February, and so forth. For output print 0 for Sunday, 1 for Monday, 2 for Tuesday, and so forth. 
+// Use the following formulas, for the Gregorian calendar (where / denotes integer division):
+
 public class DayOfWeek {
+    public static void main(String[] args) {
+        if (args.length != 3) {
+            System.out.println("Usage: java DayOfWeek <month> <day> <year>");
+            return;
+        }
+		//parse input
 
-	public static void main(String[] args) {
-		if(args.length != 3) {
-			System.out.println("Usage: java DayOfWeek <month> <day> <year>");
-			return;
-		}
-		//Read month , day and year from command-line arguments
-		int m = Integer.parseInt(args[0]);
-		int d = Integer.parseInt(args[1]);
-		int y = Integer.parseInt(args[2]);
-		
-		//Calculates year-realtes components:
-		//y0 = adjusted year
-		//y0/4 = leap years
-		//y0/100 = century years
-		// y0/400 = leap century years
-		int y0 = y-(14 - m) / 12;
-		int x = y0 + y0 / 4- y0 / 100 + y0 / 400;
-		
-		int m0 = m+ 12 * ((14-m) /12)-2;
-		int d0 = (d +x+(31* m0)/ 12) % 7;
-		
-		//Print the calculated day number
-		System.out.println("Day of the week is: " + d0);
-		
+        int m = Integer.parseInt(args[0]);
+        int d = Integer.parseInt(args[1]);
+        int y = Integer.parseInt(args[2]);
 		
 
-	}
+        if (m < 1 || m > 12 || d < 1 || d > 31) {
+            System.out.println("Invalid date");
+            return;
+        }
 
+		//Adjust month and year for january and february
+
+        if (m == 1 || m == 2) {
+
+            m += 12;
+            y -= 1;
+
+        }
+
+		//Calculate century and year of century
+        int century = y / 100;
+
+        int yearOfCentury = y % 100;
+
+        //calculate the day of the week
+        int dayOfWeek = (d + (13 * (m + 1) / 5) + yearOfCentury + (yearOfCentury / 4) + (century / 4) - (2 * century)) % 7;
+
+        //Adjust for 0-6 range 
+        dayOfWeek = (dayOfWeek + 7) % 7;
+
+        //Convert to 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+        dayOfWeek = (dayOfWeek + 1) % 7;
+
+        System.out.println(dayOfWeek);
+    }
 }
