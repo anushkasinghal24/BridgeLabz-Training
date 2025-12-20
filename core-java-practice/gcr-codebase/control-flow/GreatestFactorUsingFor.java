@@ -6,8 +6,6 @@
 //Display the greatestFactor variable outside the loop
 
 
-
-package controlflow;
 import java.util.*;
 //find the greatest factor of a number besides itself using for loop
 public class GreatestFactorUsingFor {

@@ -1,5 +1,4 @@
 
-package controlflow;
 import java.util.*;
 public class GreatestFactorUsingWhile {
 

@@ -1,4 +1,3 @@
-package controlflow;
 import java.util.*;
 public class FactorUsingWhile {
 	public static void main(String args[]) {

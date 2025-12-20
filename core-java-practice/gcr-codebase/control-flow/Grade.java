@@ -1,6 +1,6 @@
 // Creating class with name Grade indicating the purpose is to
 // calculate percentage and determine grade based on marks
-package controlflow;
+
 import java.util.*;
 public class Grade {
 

@@ -1,5 +1,4 @@
 //Count the number of digits in an integer
-package controlflow;
 import java.util.*;
 public class CountDigit {
 	public static void main(String args[]) {
@@ -22,6 +21,7 @@ public class CountDigit {
 			}
 		}
 		System.out.println("Number of digits: " + count);
+		sc.close();
 	}
 
 }

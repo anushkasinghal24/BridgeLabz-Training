@@ -2,7 +2,7 @@
 //I/P => number1, number2, number3
 //O/P => Is the first number the smallest? ____
 
-package controlflow;
+//package controlflow;
 import java.util.*;
 public class Smallest {
     public static void main(String args[]){

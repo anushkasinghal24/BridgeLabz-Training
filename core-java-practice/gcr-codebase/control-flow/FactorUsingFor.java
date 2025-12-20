@@ -1,4 +1,5 @@
-package controlflow;
+// Take the integer input, check for natural number
+// and determine the factors of the number using for loop and finally print the result.
 import java.util.*;
 public class FactorUsingFor {
 	public static void main(String args[]) {

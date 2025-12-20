@@ -1,4 +1,3 @@
-package controlflow;
 import java.util.*;
 //Creating class with name AbundantNumber indicating the purpose is to 
 //check the number is Abundant or not

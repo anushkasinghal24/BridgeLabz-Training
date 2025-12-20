@@ -1,4 +1,4 @@
-package controlflow;
+//package controlflow;
 // Creating Class with name PowerUsingwhile indicationg the purpose is to 
 // caluculation the power raised with positive number
 import java.util.Scanner;

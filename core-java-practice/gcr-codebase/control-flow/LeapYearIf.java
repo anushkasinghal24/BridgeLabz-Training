@@ -1,3 +1,5 @@
+// Leap Year with single if condition using logical and && and or || operators
+
 package controlflow;
 import java.util.*;
 public class LeapYearIf {
@@ -13,7 +15,7 @@ public class LeapYearIf {
 					
 		}else {
 			System.out.println("Leap year calculation is valid only for year >= 1582");
-		}
+		}sc.close();
 	}
 
 }

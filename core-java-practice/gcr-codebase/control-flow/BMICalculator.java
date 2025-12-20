@@ -1,10 +1,10 @@
-package controlflow;
-import java.util.*;
+
 //Calculate Body Mass Index and determine weight status
+import java.util.*;
 public class BMICalculator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter weight in kg: ");
