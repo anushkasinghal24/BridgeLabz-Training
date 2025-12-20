@@ -1,0 +1,16 @@
+package controlflow;
+import java.util.*;
+
+public class Countdown {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number : ");
+        int counter = sc.nextInt();
+
+        for(int i = counter ; i>=1 ; i--){
+            System.out.println(i);
+        }
+        
+    }
+    
+}
