@@ -79,3 +79,72 @@ In Delhi Metro, fare varies by distance.
 ● Calculate fare using ternary operator.
 ● Deduct from smart card balance.
 Loop until balance is exhausted or the user quits.
+
+25-12-2025 : Completed and Submitted String practice questions.[Strings](./core-java-practice/gcr-codebase/strings/)
+
+The questions are : 
+
+Strings - Handling strings and common string functions
+Functions - parameter passing, return
+
+1. Count Vowels and Consonants
+Problem:
+Write a Java program to count the number of vowels and consonants in a given string.
+2. Reverse a String
+Problem:
+Write a Java program to reverse a given string without using any built-in reverse
+functions.
+3. Palindrome String Check
+Problem:
+Write a Java program to check if a given string is a palindrome (a string that reads the
+same forward and backward).
+4. Remove Duplicates from a String
+Problem:
+Write a Java program to remove all duplicate characters from a given string and return
+the modified string.
+5. Find the Longest Word in a Sentence
+Problem:
+Write a Java program that takes a sentence as input and returns the longest word in the
+sentence.
+6. Find Substring Occurrences
+Problem:
+Write a Java program to count how many times a given substring occurs in a string.
+7. Toggle Case of Characters
+Problem:
+Write a Java program to toggle the case of each character in a given string. Convert
+uppercase letters to lowercase and vice versa.
+8. Compare Two Strings
+
+Problem:
+Write a Java program to compare two strings lexicographically (dictionary order) without
+using built-in compare methods.
+Example Input:
+String 1: "apple"
+String 2: "banana"
+
+Expected Output:
+"apple" comes before "banana" in lexicographical order
+9. Find the Most Frequent Character
+Problem:
+Write a Java program to find the most frequent character in a string.
+Example Input:
+String: "success"
+
+Expected Output:
+Most Frequent Character: 's'
+
+10. Remove a Specific Character from a String
+Problem:
+Write a Java program to remove all occurrences of a specific character from a string.
+Example Input:
+String: "Hello World"
+Character to Remove: 'l'
+
+Expected Output:
+Modified String: "Heo Word"
+
+11. Write a Java program that accepts two strings from the user and checks if the two
+strings are anagrams of each other (i.e., whether they contain the same characters in any
+order).
+12. Write a replace method in Java that replaces a given word with another word in a
+sentence:
