@@ -151,3 +151,6 @@ strings are anagrams of each other (i.e., whether they contain the same characte
 order).
 12. Write a replace method in Java that replaces a given word with another word in a
 sentence
+
+
+26-12-2025 : Completed and Submitted Java methods practice questions.[methods](./core-java-practice//gcr-codebase/methods/)
