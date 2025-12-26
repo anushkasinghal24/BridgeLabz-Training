@@ -80,7 +80,9 @@ In Delhi Metro, fare varies by distance.
 ● Deduct from smart card balance.
 Loop until balance is exhausted or the user quits.
 
-25-12-2025 : Completed and Submitted String practice questions.[Strings](./core-java-practice/gcr-codebase/strings/)
+25-12-2025 : Added and Submitted Level and Level 2 practice questions of java methods. [methods](./core-java-practice/gcr-codebase/methods/) 
+
+26-12-2025 : Completed and Submitted Extras java-string-handling practice questions.[extras-java-string-handling](./core-java-practice//gcr-codebase/extras-java-string-handling/)
 
 The questions are : 
 
@@ -124,6 +126,7 @@ String 2: "banana"
 
 Expected Output:
 "apple" comes before "banana" in lexicographical order
+
 9. Find the Most Frequent Character
 Problem:
 Write a Java program to find the most frequent character in a string.
@@ -147,4 +150,4 @@ Modified String: "Heo Word"
 strings are anagrams of each other (i.e., whether they contain the same characters in any
 order).
 12. Write a replace method in Java that replaces a given word with another word in a
-sentence:
+sentence
