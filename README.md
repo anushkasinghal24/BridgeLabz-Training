@@ -154,3 +154,17 @@ sentence
 
 
 26-12-2025 : Completed and Submitted Java methods practice questions.[methods](./core-java-practice//gcr-codebase/methods/)
+
+27-12-2025 : Added and Completed Scenario-based questions.[scenario-based](./core-java-practice/scenario-based/)
+
+* Bus Route Distance Tracker 🚌
+Each stop adds distance.
+● Ask if the passenger wants to get off at a stop.
+● Use a while-loop with a total distance tracker.
+● Exit on user confirmation.
+
+* Festival Lucky Draw 🎉
+At Diwali mela, each visitor draws a number.
+● If the number is divisible by 3 and 5, they win a gift.
+● Use if, modulus, and loop for multiple visitors.
+● continue if input is invalid.
