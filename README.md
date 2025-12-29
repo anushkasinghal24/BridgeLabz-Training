@@ -168,3 +168,20 @@ At Diwali mela, each visitor draws a number.
 ● If the number is divisible by 3 and 5, they win a gift.
 ● Use if, modulus, and loop for multiple visitors.
 ● continue if input is invalid.
+
+29-12-2025 : Added and Completed EXTRAS - Built-In Function Practice Problem.[extras](./core-java-practice/gcr-codebase/extras/)
+
+Problem Statements are : 
+1. Number Guessing Game
+2. Naximum of Three Numbers
+3. Prime Number Checker
+4. Fibonacci Sequence Generator
+5. Palindrome Checker
+6. Factorial Using Recursion
+7. GCD and LCM Calculator
+8. Temperature Converter
+9. Basic Calculator
+10. Time Zones and ZonedDateTime
+11. Date Arithmetic
+12. Date Formatting
+13. Date Comparison
