@@ -185,3 +185,46 @@ Problem Statements are :
 11. Date Arithmetic
 12. Date Formatting
 13. Date Comparison
+
+29-12-2025 : Added Leetcode questions. [leet-code-codebase](./core-java-practice/leet-code-codebase/)
+
+LeetCode questions are : 
+1.CountPrimeNumber
+2.IsNumberHappy
+3.PalindromeNumber
+4.PalindromeSubString
+5.ReverseString
+
+
+29-12-2025 : Added scenario-based Problems. [scenario-based](./core-java-practice/scenario-based/) 
+
+* Sandeep’s Fitness Challenge Tracker ️‍♂️
+Each day Sandeep completes a number of push-ups.
+● Store counts for a week.
+● Use for-each to calculate total and average.
+● Use continue to skip rest days.
+
+* Movie Ticket Booking App 🎬
+Ask users for movie type, seat type (gold/silver), and snacks.
+● Use switch and if together.
+● Loop through multiple customers.
+● Clean structure and helpful variable names.
+
+* Rohan’s Library Reminder App 📚
+Rohan wants a fine calculator:
+● Input return date and due date.
+● If returned late, calculate fine: ₹5/day.
+● Repeat for 5 books using for-loop.
+
+* Digital Watch Simulation ⏱️
+Simulate a 24-hour watch:
+● Print hours and minutes in a nested for-loop.
+● Use a break to stop at 13:00 manually (simulate power cut).
+
+* EmployeeWageCalculation 
+
+30-12-2025 : Added Scenario-based Problem.[scenario-based](./core-java-practice/scenario-based/)
+
+* LineComparisonProblem
+
+
