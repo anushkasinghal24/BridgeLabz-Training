@@ -225,6 +225,7 @@ Simulate a 24-hour watch:
 
 30-12-2025 : Added Scenario-based Problem.[scenario-based](./core-java-practice/scenario-based/)
 
-* LineComparisonProblem
+* Line Comparison Problem
+* Snake and Ladder Problem
 
 
