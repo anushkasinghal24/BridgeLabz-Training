@@ -12,7 +12,7 @@ class Vehicle{
 
     //Constructor
 
-    Vehicle(String ownerName , String vehicleTyep , String registrationNumber){
+    Vehicle(String ownerName , String vehicleType , String registrationNumber){
         this.ownerName = ownerName;
         this.vehicleType = vehicleType;
         this.registrationNumber = registrationNumber;
