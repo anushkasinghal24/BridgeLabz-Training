@@ -1,3 +1,17 @@
+/*Cab Booking / Ride Management System : Key Features (CRUD)
+Real Scenario
+Users book rides, drivers accept, and fare is calculated.Key Features
+Ride booking
+Driver assignment
+Fare calculation
+Ride history
+Concepts Used
+OOP: User, Driver, Ride
+Interface: FareCalculator
+Polymorphism: Peak vs normal pricing
+Exception Handling: NoDriverAvailableException. */
+
+
 import java.util.*;
 //Exception
 
@@ -116,21 +130,21 @@ public class CabBooking{
 
         // ========== DRIVER CRUD ==========
     static void addDriver() {
-        System.out.print("Enter Driver ID: ");
+        System.out.print(" Enter Driver ID : ");
         int id = sc.nextInt();
         sc.nextLine();
 
-        System.out.print("Enter Driver Name: ");
+        System.out.print(" Enter Driver Name : ");
         String name = sc.nextLine();
 
         drivers.add(new Driver(id, name));
-        System.out.println("✅ Driver Added");
+        System.out.println(" Driver Added ");
     }
 
     static void viewDrivers() {
         System.out.println("--- Drivers ---");
         for (Driver d : drivers) {
-            System.out.println(d.driverId + " - " + d.name + " | Available: " + d.available);
+            System.out.println(d.driverId + " - " + d.name + "  | Available:  " + d.available );
         }
     }
 
@@ -147,10 +161,10 @@ public class CabBooking{
     // Ride Crud
     static void bookRide(){
         try {
-            System.out.print("Enter Ride ID: ");
+            System.out.print(" Enter Ride ID: ");
             int rideId = sc.nextInt();
 
-            System.out.print("Enter User ID: ");
+            System.out.print(" Enter User ID: ");
             int userId = sc.nextInt();
 
             User user = getUser(userId);
@@ -159,20 +173,20 @@ public class CabBooking{
                 return;
             }
 
-            System.out.print("Enter Distance (km): ");
+            System.out.print("Enter Distance ( km ): ");
             double distance = sc.nextDouble();
 
             System.out.print("1. Normal Fare  2. Peak Fare : ");
             int choice = sc.nextInt();
 
             FareCalculator calculator =
-                    (choice == 1) ? new NormalFareCalculator() : new PeakFareCalculator();
+                    (choice  == 1) ? new NormalFareCalculator() : new PeakFareCalculator();
 
             Driver driver = assignDriver();
             double fare = calculator.calculateFare(distance);
 
             rides.add(new Ride(rideId, user, driver, fare));
-            System.out.println("Ride Booked | Fare: " + fare);
+            System.out.println("Ride Booked | Fare : " + fare);
 
         } catch (NoDriverAvailableException e) {
             System.out.println(e.getMessage());
@@ -181,12 +195,12 @@ public class CabBooking{
 
         
     static void rideHistory(){
-        System.out.println("-Ride History ----");
+        System.out.println("----Ride History ----");
         for(Ride r : rides){
-            System.out.println("RideID: " + r.rideId +
+            System.out.println("RideID : " + r.rideId +
                     " | User: " + r.user.name +
                     " | Driver: " + r.driver.name +
-                    " | Fare: ₹" + r.fare);
+                    " | Fare: " + r.fare);
         }
     }
 
