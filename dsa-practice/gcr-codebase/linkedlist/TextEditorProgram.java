@@ -5,22 +5,22 @@ Implement the redo functionality (revert back to the next state after undo).
 Display the current state of the text.
 Limit the undo/redo history to a fixed size (e.g., last 10 states).
  */
-class Node{
+class TextNode{
     String text;
-    Node prev,next;
-    Node(String text){
+    TextNode prev,next;
+    TextNode(String text){
         this.text = text;
     }
 }
 
 
 class TextEditor{
-    private Node head,current;
+    private TextNode head,current;
     private int size = 0;
     private final int LIMIT = 10;
 
     void addState(String text){
-        Node node = new Node(text);
+        TextNode node = new TextNode(text);
 
         if (current != null && current.next != null) {
             current.next.prev = null;
@@ -71,9 +71,13 @@ class TextEditor{
 
     public class TextEditorProgram{
         public static void main(String args[]){
-            TextEditor editor=new TextEditor();
+            TextEditor editor = new TextEditor();
 
 
+
+
+            System.out.println("Text Editor with Undo/Redo Functionality");
+            
             editor.addState("State 1");
             editor.addState("State 2");
             editor.addState("State 3");
