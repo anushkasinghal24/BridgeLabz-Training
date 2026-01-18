@@ -11,7 +11,7 @@ public class LongestConsecutiveSequence {
         int n = sc.nextInt();
         int[] arr = new int[n];
         //Take array elements input     
-        System.out.println("Enter Array Elements : ");
+        System.out.println("Enter Array Elements : ") ;
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
 
