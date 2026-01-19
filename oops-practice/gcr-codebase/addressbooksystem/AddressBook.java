@@ -1,50 +1,28 @@
 package addressbooksystem;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 // UC-2 add a new Contact to Address Book
 
 public class AddressBook {
 
-    private ArrayList<AddressBookContact> contacts = new ArrayList<>();
+    private List<AddressBookContact> contacts = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
 
     // UC-2 & UC-5: Add Contact
-    public void addContact() {
-        System.out.print("Enter First Name: ");
-        String firstName = scanner.nextLine();
 
-        System.out.print("Enter Last Name: ");
-        String lastName = scanner.nextLine();
 
-        System.out.print("Enter Address: ");
-        String address = scanner.nextLine();
-
-        System.out.print("Enter City: ");
-        String city = scanner.nextLine();
-
-        System.out.print("Enter State: ");
-        String state = scanner.nextLine();
-
-        System.out.print("Enter Zip: ");
-        String zip = scanner.nextLine();
-
-        System.out.print("Enter Phone Number: ");
-        String phone = scanner.nextLine();
-
-        System.out.print("Enter Email: ");
-        String email = scanner.nextLine();
-
-        AddressBookContact person = new AddressBookContact(
-                firstName, lastName, address, city, state, zip, phone, email);
-
+    public void addContact(AddressBookContact person) {
+        if (contacts.contains(person)) {
+            System.out.println("Duplicate contact not allowed!");
+            return;
+        }
         contacts.add(person);
         System.out.println("Contact added successfully!");
     }
 
     // UC-3: Ability to edit existing contact person using their name
 
-    public void editContact(String name) {
+    public void editContact(String name, Scanner sc) {
         for (AddressBookContact person : contacts) {
             if (person.getFirstName().equalsIgnoreCase(name)) {
 
@@ -86,6 +64,9 @@ public class AddressBook {
             }
         }
         System.out.println("Contact not found!");
+    }
+    public List<AddressBookContact> getContacts() {
+        return contacts;
     }
 
     public void displayContacts() {
