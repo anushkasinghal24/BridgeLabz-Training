@@ -35,20 +35,20 @@ public class  ComparingDifferentDataStructuresForSearching{
         long startArray = System.currentTimeMillis();
         arraySearch(arr,target);
         long endArray = System.currentTimeMillis();
-        System.out.println("Array search time: "+(endArray-startArray)+" ms");
+        System.out.println("Array search time: " + (endArray-startArray)+" ms");
 
 
         long startHashSet = System.currentTimeMillis();
         hashset.contains(target);
 
         long endHashSet = System.currentTimeMillis();
-        System.out.println("Hashset search time: "+(endHashSet-startHashSet) +" ms");
+        System.out.println("Hashset search time: " + (endHashSet-startHashSet) +" ms");
 
 
         long startTreeSet = System.currentTimeMillis();
         treeset.contains(target);
         long endTreeSet = System.currentTimeMillis();
-        System.out.println("Treeset search time: "+(endTreeSet-startTreeSet) +" ms");
+        System.out.println("Treeset search time: " + (endTreeSet-startTreeSet) +" ms");
         
 
 
