@@ -1,9 +1,9 @@
 /*Develop a university course management system where different departments offer courses with different evaluation types (e.g., Exam-Based, Assignment-Based, Research-Based).
-
+*/
 package university;
 
 import java.util.ArrayList;
-import java.util.List;*/
+import java.util.List;
 
 public class UniversityMain {
 
