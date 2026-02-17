@@ -18,7 +18,7 @@ public class AddressBookMain {
             System.out.println("Enter 9 display all");
             System.out.println("Enter 10 file io");
             System.out.println("Enter 11 save to database ");
-            System.out.println("Enter 12 t exit");
+            System.out.println("Enter 12 to exit");
             int choice=sc.nextInt();
             sc.nextLine();
             switch(choice){
