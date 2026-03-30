@@ -1644,7 +1644,7 @@ The result is returned in the unit of the first operand using base-unit normaliz
 
 ## Solved Scenarios and LeetCode Questions
 
-## 🔹 Day 59 to ... – 26-02-2026 - (Worked on Quantity Measurement App & Quantity Measurement App frontend)
+## 🔹 Day 59 to ... - (Worked on Quantity Measurement App & Quantity Measurement App frontend)
 
 * [QuantityMeasurementApp](https://github.com/anushkasinghal24/QuantityMeasurementApp)
 
