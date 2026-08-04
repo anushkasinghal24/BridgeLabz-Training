@@ -16,6 +16,7 @@ This branch contains my day-wise Backend Refresher Training assignments, practic
 | ----- | ----------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | Day 1 | 31-Jul-2026 | MySQL Basics, Database Creation, Tables, INSERT, ALTER, UPDATE, DELETE, User & Privileges                                    | ✅ Completed |
 | Day 2 | 03-Aug-2026 | Database Normalization (1NF–3NF), ER Modeling, Relationships, Indexing, Composite & Covering Indexes, EXPLAIN Query Analysis | ✅ Completed |
+| Day 3 | 04-Aug-2026 | SQL Joins, Stored Procedures, Parameters (IN, OUT, INOUT), Error Handling, Database Triggers (INSERT, UPDATE, DELETE)        | ✅ Completed |
 
 ---
 
@@ -30,59 +31,62 @@ Refresher-Training/
 │   ├── Day2_Assignment.sql
 │   └── README.md
 ├── Day-3/
+│   ├── Day3_Assignment.sql
+│   └── README.md
 └── ...
 ```
 
 ---
 
-## Day 1 Summary
+## Day 3 Summary
 
 ### Topics Covered
 
-* MySQL Installation
-* Verify MySQL Version
-* Create Database
-* Create Tables
-* Insert Records
-* ALTER TABLE
-* UPDATE & DELETE Queries
-* Create MySQL User
-* Grant Database Privileges
+* SQL JOINs
 
-### Assignment Completed
+  * INNER JOIN
+  * LEFT JOIN
+  * RIGHT JOIN
+  * FULL OUTER JOIN using UNION
+  * SELF JOIN
+  * CROSS JOIN
+  * Multiple Table JOINs
 
-* Verified MySQL installation using `SELECT VERSION()`
-* Created `health_clinic_db`
-* Created `specializations` and `appointments` tables
-* Inserted sample records
-* Practiced `ALTER TABLE`
-* Executed `UPDATE` and `DELETE` queries with `WHERE`
-* Created `clinic_app_user` with required privileges
+* Stored Procedures
 
----
+  * Purpose and advantages of Stored Procedures
+  * Creating and Calling Procedures
+  * IN Parameters
+  * OUT Parameters
+  * INOUT Parameters
+  * Error Handling using Exception Handlers
+  * Transaction Management using COMMIT and ROLLBACK
 
-## Day 2 Summary
+* Database Triggers
 
-### Topics Covered
-
-* Database Normalization (1NF, 2NF, 3NF)
-* Entity Relationship (ER) Modeling
-* One-to-Many and Many-to-Many Relationships
-* Foreign Keys and Composite Primary Keys
-* Single-Column, Composite, and Covering Indexes
-* Query Execution Analysis using `EXPLAIN`
-
-### Assignment Completed
-
-* Designed a fully normalized Health Clinic database schema.
-* Created tables for patients, doctors, appointments, specializations, and patient phone numbers.
-* Implemented primary keys, foreign keys, and relationship constraints.
-* Added consultation rooms and doctor-room mapping using a junction table.
-* Created single-column, composite, and covering indexes to optimize query performance.
-* Compared query execution plans using `EXPLAIN` before and after indexing.
-* Verified that the `patient_phones` table satisfies 1NF, 2NF, and 3NF.
-* Optimized appointment queries using appropriate indexing strategies.
+  * BEFORE INSERT Trigger
+  * AFTER INSERT Trigger
+  * BEFORE UPDATE Trigger
+  * AFTER UPDATE Trigger
+  * BEFORE DELETE Trigger
+  * AFTER DELETE Trigger
+  * Using NEW and OLD values in triggers
 
 ---
 
-**Last Updated:** 03-Aug-2026
+### Assignment Completed
+
+* Practiced different types of SQL JOINs on the Health Clinic database.
+* Generated combined reports using Patients, Doctors, Appointments, Specializations, Billing, and Visit History tables.
+* Created Stored Procedures for reusable database operations.
+* Implemented procedures using IN, OUT, and INOUT parameters.
+* Added exception handling in Stored Procedures using SQL handlers.
+* Used transactions with COMMIT and ROLLBACK for maintaining data consistency.
+* Created triggers to automatically perform actions during INSERT, UPDATE, and DELETE operations.
+* Implemented validation rules using BEFORE triggers.
+* Maintained automatic updates and audit actions using AFTER triggers.
+* Verified trigger execution by testing appointment, billing, and patient operations.
+
+---
+
+**Last Updated:** 04-Aug-2026
