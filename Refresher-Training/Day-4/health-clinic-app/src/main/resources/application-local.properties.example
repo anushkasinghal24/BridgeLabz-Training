@@ -1,3 +1,0 @@
-app.db.url=jdbc:mysql://localhost:3306/health_clinic_db
-app.db.user=root
-app.db.pass=your-local-password
