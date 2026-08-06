@@ -18,6 +18,7 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 2 | 03-Aug-2026 | Database normalization, ER modeling, relationships, indexing, EXPLAIN analysis | Completed |
 | Day 3 | 04-Aug-2026 | SQL joins, stored procedures, parameters, error handling, triggers | Completed |
 | Day 4 | 05-Aug-2026 | Health clinic app, Spring Boot, JDBC, MySQL connection, DAO/service layer | Completed |
+| Day 5 | 06-Aug-2026 | Spring Boot greeting app setup, controller/service structure, Maven project configuration | Completed |
 
 ---
 
@@ -28,8 +29,8 @@ Refresher-Training/
 +-- Day-1/
 +-- Day-2/
 +-- Day-3/
-+-- Day-4/
-    +-- health-clinic-app/
++-- Day-4/ (HealthClinicApp)
++-- Day-5/ (greeting-app)
 ```
 
 ---
@@ -131,4 +132,24 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 05-Aug-2026
+## Day 5 Summary
+
+### Topics Covered
+
+- Spring Boot project setup
+- Maven project structure
+- Controller layer preparation
+- Service layer preparation
+- Basic application bootstrap
+
+### Assignment Completed
+
+- Created a new Spring Boot `greeting-app` project.
+- Set up the Maven build and Spring Boot starter dependencies.
+- Added the application entry point class.
+- Created controller and service packages for future greeting endpoints.
+- Prepared the project structure for building and expanding the greeting app.
+
+---
+
+**Last Updated:** 06-Aug-2026
