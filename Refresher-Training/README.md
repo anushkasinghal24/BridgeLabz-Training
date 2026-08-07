@@ -19,6 +19,7 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 3 | 04-Aug-2026 | SQL joins, stored procedures, parameters, error handling, triggers | Completed |
 | Day 4 | 05-Aug-2026 | Health clinic app, Spring Boot, JDBC, MySQL connection, DAO/service layer | Completed |
 | Day 5 | 06-Aug-2026 | Spring Boot greeting app setup, controller/service structure, Maven project configuration | Completed |
+| Day 6 | 07-Aug-2026 | Spring Boot REST API, CRUD endpoints, in-memory service layer, servlet integration | Completed |
 
 ---
 
@@ -31,6 +32,7 @@ Refresher-Training/
 +-- Day-3/
 +-- Day-4/ (HealthClinicApp)
 +-- Day-5/ (greeting-app)
++-- Day-6/ (greeting-app)
 ```
 
 ---
@@ -152,4 +154,26 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 06-Aug-2026
+## Day 6 Summary
+
+### Topics Covered
+
+- Spring Boot REST API development
+- CRUD endpoints using `GET`, `POST`, `PUT`, and `DELETE`
+- Controller, service, and model layering
+- In-memory data storage using concurrent collections
+- Servlet-based request handling
+- Request DTOs and response models
+- Servlet component scanning
+
+### Assignment Completed
+
+- Built REST endpoints under `/api/greetings` for creating, reading, updating, and deleting greetings.
+- Implemented an in-memory service layer using a thread-safe map and sequence generator.
+- Added request validation defaults for blank names and messages.
+- Created a servlet mapped to `/greeting` to demonstrate `doGet()` and `doPost()` handling.
+- Structured the project with controller, service, model, and servlet packages.
+
+---
+
+**Last Updated:** 07-Aug-2026

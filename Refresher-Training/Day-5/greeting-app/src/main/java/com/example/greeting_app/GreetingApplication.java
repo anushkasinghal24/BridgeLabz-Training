@@ -2,12 +2,13 @@ package com.example.greeting_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
-public class GreetingAppApplication {
+@ServletComponentScan
+public class GreetingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GreetingAppApplication.class, args);
+		SpringApplication.run(GreetingApplication.class, args);
 	}
-
 }
