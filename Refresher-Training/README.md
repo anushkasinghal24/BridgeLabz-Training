@@ -20,6 +20,9 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 4 | 05-Aug-2026 | Health clinic app, Spring Boot, JDBC, MySQL connection, DAO/service layer | Completed |
 | Day 5 | 06-Aug-2026 | Spring Boot greeting app setup, controller/service structure, Maven project configuration | Completed |
 | Day 6 | 07-Aug-2026 | Spring Boot REST API, CRUD endpoints, in-memory service layer, servlet integration | Completed |
+| Day 7 | 10-Aug-2026 | Contact App, Spring Boot, Spring Initializr, MVC architecture, database connectivity | Completed |
+
+
 
 ---
 
@@ -33,6 +36,7 @@ Refresher-Training/
 +-- Day-4/ (HealthClinicApp)
 +-- Day-5/ (greeting-app)
 +-- Day-6/ (greeting-app)
++-- Day-7/ (contact-app)
 ```
 
 ---
@@ -176,4 +180,28 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 07-Aug-2026
+## Day 7 Summary
+
+### Topics Covered
+- Spring Boot project creation using Spring Initializr
+- Contact App development
+- MVC (Model-View-Controller) architecture
+- Controller layer
+- Service layer
+- Model/Entity layer
+- Database connectivity
+- CRUD operations
+- Spring Data/JPA-based database interaction
+
+### Assignment Completed
+- Created a Contact App using Spring Boot and Spring Initializr.
+- Structured the application following the MVC architecture to separate presentation, business logic, and data-related responsibilities.
+- Created model/entity classes to represent contact information.
+- Implemented controller and service layers for handling contact-related operations.
+- Connected the Spring Boot application to a database.
+- Implemented database operations for storing and managing contact information.
+- Tested the application and verified communication between the application and database.
+
+---
+
+**Last Updated:** 10-Aug-2026
