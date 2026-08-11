@@ -21,6 +21,7 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 5 | 06-Aug-2026 | Spring Boot greeting app setup, controller/service structure, Maven project configuration | Completed |
 | Day 6 | 07-Aug-2026 | Spring Boot REST API, CRUD endpoints, in-memory service layer, servlet integration | Completed |
 | Day 7 | 10-Aug-2026 | Contact App, Spring Boot, Spring Initializr, MVC architecture, database connectivity | Completed |
+| Day 8 | 11-Aug-2026 | Project App, Spring Boot, Spring Initializr, MVC architecture, database connectivity | Completed |
 
 
 
@@ -37,6 +38,7 @@ Refresher-Training/
 +-- Day-5/ (greeting-app)
 +-- Day-6/ (greeting-app)
 +-- Day-7/ (contact-app)
++-- Day-8/ (project-app)
 ```
 
 ---
@@ -204,4 +206,18 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 10-Aug-2026
+
+## Day 8 Summary
+
+### Topics Covered
+- Spring Boot project creation using Spring Initializr
+- Contact App development
+- MVC (Model-View-Controller) architecture
+- Controller layer
+- Service layer
+- Model/Entity layer
+- Database connectivity (MYSQL)
+
+
+
+**Last Updated:** 11-Aug-2026
