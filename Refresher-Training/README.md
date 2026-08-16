@@ -22,7 +22,8 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 6 | 07-Aug-2026 | Spring Boot REST API, CRUD endpoints, in-memory service layer, servlet integration | Completed |
 | Day 7 | 10-Aug-2026 | Contact App, Spring Boot, Spring Initializr, MVC architecture, database connectivity | Completed |
 | Day 8 | 11-Aug-2026 | Project App, Spring Boot, Spring Initializr, MVC architecture, database connectivity | Completed |
-| Day 9 | 16-Aug-2026 | Spring Boot auto-configuration, starters, embedded server, REST API basics, Contact App REST APIs | Completed |
+| Day 9 | 12-Aug-2026 | Spring Boot auto-configuration, starters, embedded server, REST API basics, Contact App REST APIs | Completed |
+| Day 10 | 14-Aug-2026 | Contact App REST APIs, layered architecture, request validation, H2 in-memory database | Completed |
 
 ---
 
@@ -39,6 +40,7 @@ Refresher-Training/
 +-- Day-7/ (contact-app)
 +-- Day-8/ (project-app)
 +-- Day-9/ (contactApp)
++-- Day-10/ (contactApp)
 ```
 
 ---
@@ -242,6 +244,25 @@ Refresher-Training/
 - Implemented request validation for contact input.
 - Added H2-backed persistence through Spring Data JPA.
 - Documented example REST API requests and responses in the app README.
+
+---
+
+## Day 10 Summary
+
+### Topics Covered
+- Contact App REST APIs
+- Controller, service, repository, and entity layers
+- Request and response DTOs
+- Input validation
+- H2 in-memory database
+- Spring Data JPA integration
+
+### Assignment Completed
+- Built the Day 10 Contact App as a RESTful Spring Boot application.
+- Implemented create, read, update, delete, and list endpoints for contacts.
+- Added request validation for required contact fields.
+- Connected the app to an H2 in-memory database for persistence.
+- Structured the project using controller, service, repository, DTO, and entity layers.
 
 ---
 
