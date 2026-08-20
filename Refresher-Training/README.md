@@ -26,6 +26,9 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 10 | 13-Aug-2026 | Contact App REST APIs, layered architecture, request validation, H2 in-memory database | Completed |
 | Day 11 | 14-Aug-2026 | Contact App REST APIs, layered Spring Boot structure, validation, global exception handling, H2 database | Completed |
 | Day 12 | 17-Aug-2026 | Contact App REST APIs, layered architecture, mapper-based DTO conversion, CORS configuration, environment profiles, H2 database | Completed |
+| Day 13 | 18-Aug-2026 | Contact App REST APIs, JWT authentication, role-based authorization, security configuration, H2 database | Completed |
+| Day 14 | 19-Aug-2026 | Employee Payroll App, employee and department management, JWT security, payroll tracking, exception handling | Completed |
+| Day 15 | 20-Aug-2026 | Fundoo Notes App, user and note scaffolding, layered Spring Boot structure, repository and service setup | Completed |
 
 ---
 
@@ -45,6 +48,9 @@ Refresher-Training/
 +-- Day-10/ (contactApp)
 +-- Day-11/ (contactApp)
 +-- Day-12/ (contactApp)
++-- Day-13/ (contactApp)
++-- Day-14/ (EmployeePayrollApp)
++-- Day-15/ (fundoo-notes-app)
 ```
 
 ---
@@ -316,4 +322,66 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 17-Aug-2026
+## Day 13 Summary
+
+### Topics Covered
+
+- Contact App REST APIs
+- JWT authentication and bearer token login
+- Role-based authorization for `USER` and `ADMIN`
+- Security configuration and protected routes
+- Global exception handling
+- CORS and profile-based configuration
+- H2 in-memory database
+
+### Assignment Completed
+
+- Extended the Contact App with JWT-based login and secured REST endpoints.
+- Kept `GET` access available for authenticated users while protecting write operations for admins.
+- Added global exception handling for API errors and missing records.
+- Configured CORS and environment-based settings for local and production use.
+- Connected the application to an H2 in-memory database for persistence.
+
+---
+
+## Day 14 Summary
+
+### Topics Covered
+
+- Employee Payroll App
+- Employee, department, and payroll management
+- Authentication and authorization with JWT
+- Controller, service, repository, mapper, and entity layers
+- Exception handling
+- Role-based access and manager promotion flow
+
+### Assignment Completed
+
+- Built the Employee Payroll App with separate flows for authentication, employees, departments, and payroll.
+- Added registration and login support for employees.
+- Implemented employee lookup, update, and department-based retrieval endpoints.
+- Added payroll creation and payroll history support for employees.
+- Introduced JWT-based security and a role model for employee access control.
+- Added exception handling for missing employee records.
+
+---
+
+## Day 15 Summary
+
+### Topics Covered
+
+- Fundoo Notes App
+- User and note application scaffolding
+- Controller, service, repository, and entity layers
+- Basic Spring Boot endpoint wiring
+
+### Assignment Completed
+
+- Created the initial Fundoo Notes App structure with separate user and note modules.
+- Added controller and service classes for the notes and users domains.
+- Set up DTO, entity, and repository packages for future feature work.
+- Added basic `ping` endpoints to verify the application wiring.
+
+---
+
+**Last Updated:** 20-Aug-2026
