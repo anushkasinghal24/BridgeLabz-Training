@@ -29,6 +29,7 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 13 | 18-Aug-2026 | Contact App REST APIs, JWT authentication, role-based authorization, security configuration, H2 database | Completed |
 | Day 14 | 19-Aug-2026 | Employee Payroll App, employee and department management, JWT security, payroll tracking, exception handling | Completed |
 | Day 15 | 20-Aug-2026 | Fundoo Notes App, user and note scaffolding, layered Spring Boot structure, repository and service setup | Completed |
+| Day 16 | 21-Aug-2026 | Fundoo Notes App, user registration and login with JWT, protected notes APIs, labels, pin/archive/trash workflows | Completed |
 
 ---
 
@@ -50,7 +51,8 @@ Refresher-Training/
 +-- Day-12/ (contactApp)
 +-- Day-13/ (contactApp)
 +-- Day-14/ (EmployeePayrollApp)
-+-- Day-15/ (fundoo-notes-app)
++-- Day-15/ (FundooNotesApp)
++-- Day-16/ (FundooNotesApp)
 ```
 
 ---
@@ -384,4 +386,26 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 20-Aug-2026
+## Day 16 Summary
+
+### Topics Covered
+
+- Fundoo Notes App
+- User registration and login with JWT
+- Spring Security with stateless authentication
+- Protected notes CRUD APIs
+- Pin, archive, trash, restore, and permanent delete workflows
+- Labels management and note-label association
+- Controller, service, repository, entity, DTO, and security layers
+
+### Assignment Completed
+
+- Implemented user registration and login endpoints that return JWT tokens.
+- Secured the application with JWT-based authentication and protected routes.
+- Built authenticated notes APIs for create, list, update, delete, pin, archive, restore, and permanent delete actions.
+- Added label creation and label-to-note mapping support.
+- Kept the authenticated user's data isolated by deriving the user identity from the security context.
+
+---
+
+**Last Updated:** 21-Aug-2026
