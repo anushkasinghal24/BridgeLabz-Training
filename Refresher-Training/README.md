@@ -30,6 +30,10 @@ This branch contains my day-wise backend refresher training assignments, practic
 | Day 14 | 19-Aug-2026 | Employee Payroll App, employee and department management, JWT security, payroll tracking, exception handling | Completed |
 | Day 15 | 20-Aug-2026 | Fundoo Notes App, user and note scaffolding, layered Spring Boot structure, repository and service setup | Completed |
 | Day 16 | 21-Aug-2026 | Fundoo Notes App, user registration and login with JWT, protected notes APIs, labels, pin/archive/trash workflows | Completed |
+| Day 17 | 24-Aug-2026 | Fundoo Notes App, security configuration, checklist support, Redis caching setup, RabbitMQ integration | Completed |
+| Day 18 | 25-Aug-2026 | Fundoo Notes App, Redis cache implementation, Memurai integration, cache invalidation and performance tuning | Completed |
+| Day 19 | 26-Aug-2026 | Fundoo Notes App, bug fixing, new API endpoints, service-layer updates, microservices architecture concepts | Completed |
+| Day 20 | 27-Aug-2026 | Fundoo Notes App, updated documentation, JWT security, Redis caching, RabbitMQ messaging, project structure review | Completed |
 
 ---
 
@@ -53,6 +57,10 @@ Refresher-Training/
 +-- Day-14/ (EmployeePayrollApp)
 +-- Day-15/ (FundooNotesApp)
 +-- Day-16/ (FundooNotesApp)
++-- Day-17/ (FundooNotesApp)
++-- Day-18/ (FundooNotesApp)
++-- Day-19/ (FundooNotesApp)
++-- Day-20/ (FundooNotesApp)
 ```
 
 ---
@@ -408,4 +416,83 @@ Refresher-Training/
 
 ---
 
-**Last Updated:** 21-Aug-2026
+## Day 17 Summary
+
+### Topics Covered
+
+- Fundoo Notes App
+- Security configuration and JWT setup
+- Checklist support
+- Redis caching setup
+- RabbitMQ integration
+- Controller, service, repository, entity, DTO, security, and config layers
+
+### Assignment Completed
+
+- Continued the Fundoo Notes App development with a more complete backend structure.
+- Added checklist-related classes and repository support.
+- Added Redis and RabbitMQ configuration to prepare the project for caching and messaging.
+- Kept the application organized across controller, service, repository, mapper, and security layers.
+
+---
+
+## Day 18 Summary
+
+### Topics Covered
+
+- Fundoo Notes App
+- Redis caching
+- Memurai integration for Redis-compatible local development
+- Spring Cache annotations
+- RabbitMQ messaging with Docker
+
+### Assignment Completed
+
+- Implemented Redis caching to reduce repeated database calls.
+- Configured Memurai for local Redis-compatible behavior on Windows.
+- Added cacheable and cache eviction based flows for application data.
+- Implemented RabbitMQ producer and consumer support for asynchronous messaging.
+- Documented the combined Redis and RabbitMQ workflow.
+
+---
+
+## Day 19 Summary
+
+### Topics Covered
+
+- Fundoo Notes App
+- Bug fixing in the existing codebase
+- New API endpoints
+- Service-layer and repository updates
+- Microservices architecture concepts
+- API Gateway, service discovery, database per service, and inter-service communication
+
+### Assignment Completed
+
+- Fixed issues in existing Fundoo application flows.
+- Added new REST API endpoints and supporting service logic.
+- Revised the migration path from a monolithic application to microservices.
+- Reviewed API Gateway, security, service discovery, and service-to-service communication concepts.
+
+---
+
+## Day 20 Summary
+
+### Topics Covered
+
+- Fundoo Notes App documentation update
+- JWT security
+- Redis caching
+- RabbitMQ messaging
+- Project structure review
+
+### Assignment Completed
+
+- Updated the Fundoo Notes App documentation to reflect the latest backend state.
+- Documented the security, caching, and messaging layers of the application.
+- Summarized the current modules, architecture, and learning outcomes for the project.
+- Kept the README aligned with the actual repository structure and feature set.
+
+---
+
+**Last Updated:** 28-Aug-2026
